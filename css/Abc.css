@@ -1,0 +1,94 @@
+
+.mydiv 
+{
+       border: 1px solid red;
+}
+
+.mydiv2
+{
+     margin-top: 20px;
+     border: 1px solid green;
+}
+
+
+
+
+
+
+
+
+
+
+
+.derabassi
+{
+    color:magenta !important;
+}
+
+
+.myheading 
+{
+      text-align: center;
+      background:#7411d1;
+      padding-top:10px;
+      padding-bottom:10px;
+}
+
+.myheading2 
+{
+    text-align: center;
+    background-color: wheat;
+    color:red;
+    padding:10px;
+    font-family: 'cochin';
+    border: 1px solid red;
+    /* border:1px groove red; */
+    /* border: 1px dotted red; */
+    /* border: 1px dashed red; */
+    /* border-left: 2px solid red;
+    border-right: 2px dashed green;
+    border-top:2px groove yellow;
+    border-bottom:2px dashed blue; */
+
+}
+.mypara
+{
+      text-align: justify;
+      border: 1px solid grey;
+      padding: 20px;
+      color:red;
+      width:50%;
+      height:200px;
+      overflow: auto;
+      margin-left:25%;
+}
+
+.myheading3
+{
+      text-transform: uppercase;
+      text-align: right;
+}
+.myheading4
+{
+    text-transform: capitalize;
+    text-align: center;
+}
+.myheading5
+{
+     text-transform: lowercase;
+     
+}
+
+.btn 
+{
+     border: none;
+     padding: 10px;
+     background:black;
+     color:wheat;
+     cursor: pointer;
+}
+.btn:hover
+{
+     background: red;
+     color:black; 
+}
