@@ -1,0 +1,82 @@
+
+.myheading
+{
+       background-color: black;
+       color:red;
+       padding: 10px;
+       text-align: center;
+       cursor: pointer;
+}
+
+.myheading:hover
+{
+      background-color: red;
+      color:black;
+}
+
+.first
+{
+      border: 1px solid grey;
+       background-color: red;
+      padding:10px;
+      position: fixed;
+     
+}
+.second 
+{
+      margin-top:10%;
+      border:1px solid grey;
+      position:relative;
+      z-index:1;    /* it is only working when you declare the div position otherwise not*/
+      background-color: yellow;
+      
+      
+}
+
+.pts 
+{
+     
+       width:30%;
+       height:10%;
+       border: 1px solid red;
+       background-color:yellow;
+       position: relative;
+       left:40%;
+       top:200px;
+    
+}
+
+.pts2 
+{
+      width:30%;
+      height:10%;
+      border: 1px solid red;
+      background-color:yellow;
+      position: relative;
+      left:40%;
+      top:300px;
+}
+
+.abs
+{
+     
+       width:30%;
+       height:10%;
+       border: 1px solid red;
+       background-color:yellow;
+       position:absolute;
+       left:40%;
+       top:200px;
+    
+}
+
+.abs2
+{
+      width:30%;
+      height:10%;
+      border: 1px solid red;
+      background-color:yellow;
+      position:absolute;
+      left:40%;
+      top:400px;
+}
