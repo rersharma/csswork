@@ -1,0 +1,29 @@
+
+
+.frame
+{
+
+     perspective:1000px; /* Apply perspective for 3d effect */
+}
+.backsupport
+{
+      width:300px;
+      height:200px;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 5px 10px 15px rgba(0,0,0,0.5);
+      /* horizontal 5px offset  shaddo right ki traf move hogi
+        10px vertical offset shadow bottom ki tarf jae ge
+        15px blur radius
+      */
+      position: relative;
+      left:40%;
+}
+.backsupport:hover
+{
+    transform: rotateY(10deg) rotateX(10deg);
+}
+.content
+{
+     padding:10px;
+}

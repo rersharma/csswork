@@ -1,0 +1,116 @@
+
+
+.abc
+{
+      background: green;
+      width:300px;
+      height: 380px;
+      padding:20px;
+      border-radius: 30px;
+      text-align: justify;
+      position: relative;
+      left:40%
+}
+
+.abc2
+{
+    background: green;
+    width:300px;
+    height: 380px;
+    padding:20px;
+    border-radius: 0 0 100px 0;  /*right bottom only*/
+    text-align: justify;
+    position: relative;
+    left:40%
+}
+.abc3
+{
+    background: green;
+    width:300px;
+    height: 380px;
+    padding:20px;
+    border-radius: 0 0 0 100px; /* left bottom only */
+    text-align: justify;
+    position: relative;
+    left:40%
+}
+
+.abc4
+{
+    background: green;
+    width:300px;
+    height: 340px;
+    padding:40px;
+    border-radius: 120px 0 0 0; /* Top left corner only  */
+    /* text-indent:100px;  */
+    /*starting ist line starting margin */
+    text-align: justify;
+   
+    position: relative;
+    left:40%;
+    overflow: auto;
+
+}
+
+.abc5
+{
+    background: green;
+    width:300px;
+    height: 380px;
+    padding:40px;
+    border-radius: 0 100px 0 0; /* Top right corner only  */
+    text-align: justify;
+    position: relative;
+    left:40%
+}
+
+.abc6
+{
+    background: green;
+    width:300px;
+    height: 380px;
+    padding:40px;
+    border-radius: 100px 100px 0 0; /* Top left & top right corner only  */
+    text-align: justify;
+    position: relative;
+    left:40%
+}
+
+.abc7
+{
+    background: green;
+    width:300px;
+    height: 380px;
+    padding:20px;
+    border-radius: 0 0 100px 100px; /* Top left & top right corner only  */
+    text-align: justify;
+    position: relative;
+    left:40%
+}
+.abc8
+{
+    background: green;
+    width:300px;
+    height: 380px;
+    padding:30px;
+    border-radius: 100px 0 100px 0; /* Top left & bottom right corner only  */
+    text-align: justify;
+    position: relative;
+    left:40%
+}
+
+.abc9
+{
+    background: green;
+    width:300px;
+    height: 380px;
+    padding:30px;
+    border-radius:0 100px 0 100px; /* bottom left & top right corner only  */
+    text-align: justify;
+    position: relative;
+    left:40%
+}
+
+/*
+     border-radius :top-left-radius top-right-radius bottom-right-radius bottom-left-radius
+*/
