@@ -1,0 +1,35 @@
+.mydiv 
+{
+      background:red;
+      width:200px;
+      height:200px;
+      margin:100px auto;    /* 10px top 10px and bottom 10px ,& left & rigth margin Auto */
+    /* position: relative;
+     left: 40%; */ /* this is the oldest way to make it center */
+}
+
+.mydiv2
+{
+    background-color: red;
+    width:200px;
+    height:200px;
+   
+}
+.h 
+{
+     position: relative;
+     top:50%;
+     left:40%;
+}
+.mydiv3
+{
+    background-color: red;
+    color:white;
+    width:200px;
+    height:200px;
+
+    display: flex;
+
+justify-content: center;/* text align center is equal to justify-content  but it is work only when you make your div display:flex*/
+    align-items: center; /* automatic your div 50% me display ho jae ga */
+}

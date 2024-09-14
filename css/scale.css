@@ -1,0 +1,16 @@
+.outerdiv 
+{
+      background: red;
+      width:200px;
+      height:200px;
+}
+.innerdiv 
+{
+      background:green;
+      width:50px;
+      height:50px;
+      /*transform: scale(2);*/  /* double your width & height */
+     /* transform: scale(0.9); */
+    /* transform:scaleX(0.5); */ /*width will be effect according to the value*/
+    transform: scaleY(0.2);
+}
