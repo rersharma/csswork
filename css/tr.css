@@ -1,0 +1,38 @@
+.outerdiv
+{
+      display: flex;
+      /* justify-content: space-between;*/ /*it distrubte the equal space between all div*/
+       /* align-items: center; */
+      width:600px;
+      height:300px;
+      background-color:cyan;
+      gap:100px; /* if use only display:flex & mention the gap thenn space is according to gap */
+
+}
+
+.first
+{
+     
+      
+      background-color:red;
+      width:100px;
+      height:100px;
+}
+
+.outerdiv2
+{
+    display: flex;
+    justify-content:space-around; /*it dstribute space from left to end(righit) Equal */
+    width:50%;
+    height:300px;
+    background-color:green;
+    transform: translate(50%,50%);
+    align-items: center;
+}
+
+.second
+{ 
+      background-color:red;
+      width:100px;
+      height:100px;
+}

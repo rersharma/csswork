@@ -12,5 +12,6 @@
       /*transform: scale(2);*/  /* double your width & height */
      /* transform: scale(0.9); */
     /* transform:scaleX(0.5); */ /*width will be effect according to the value*/
-    transform: scaleY(0.2);
+    /* transform: scaleY(0.2); */
+    transform: scale(0.8,0.9);
 }

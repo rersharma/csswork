@@ -30,6 +30,6 @@
 
     display: flex;
 
-justify-content: center;/* text align center is equal to justify-content  but it is work only when you make your div display:flex*/
+    justify-content: center;/* text align center is equal to justify-content  but it is work only when you make your div display:flex*/
     align-items: center; /* automatic your div 50% me display ho jae ga */
 }
