@@ -1,0 +1,41 @@
+.outerdiv
+{
+      background-color: red;
+      transform: translate(600px,20px);
+      width:300px;
+      height:300px;
+      padding:20px;
+    
+}
+.inner_div
+{
+    background-color: green;
+    width:100px;
+    height:100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(310deg) scale(2,2);
+}
+
+.outerdiv2
+{
+    background-color:yellow;
+    transform: translate(600px,100px);
+    width:300px;
+    height:300px;
+    padding:20px;
+}
+.inner_div2
+{
+    background-color:blue;
+    width:100px;
+    height:100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* transform: skewX(60deg); */ /* y fix top and right only move bottom x left and right y */
+  /*  transform: skewY(130deg); */ /* y move top and right only fix x left and right y */
+  transform: skew(20deg,30deg);
+
+}

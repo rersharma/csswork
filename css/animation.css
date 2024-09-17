@@ -1,0 +1,23 @@
+
+.mydiv_animate
+{
+    width:200px;
+    height:200px;
+    background-color: red;
+    position: absolute;
+    left: 0;
+   animation: pankaj 2s ease-in-out forwards;
+
+}
+@keyframes pankaj
+{
+   0%
+   {
+      left:0;
+   }
+   100%
+   {
+     left:600px;
+   }
+
+}

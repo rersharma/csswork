@@ -1,0 +1,22 @@
+
+.mytable
+{
+      width:100%;
+      margin-top:50px;
+      
+}
+th,td 
+{
+    border: 1px solid grey;
+    text-align: center;
+    padding: 10px;
+}
+th{
+    background-color: yellowgreen;
+}
+    td 
+    {
+       background-color: blanchedalmond;
+       color:blueviolet;
+    }
+  
